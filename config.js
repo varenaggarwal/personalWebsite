@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Varen Aggarwal',
     photo: '/Profile.png',
-    bio: 'Hi there! I love breaking & creating things.',
+    bio: 'Hi there! I love building products 🔧',
     contacts: {
       email: '',
       facebook: '#',
