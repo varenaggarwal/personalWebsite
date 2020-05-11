@@ -5,17 +5,17 @@ slug: pages/projects
 draft: false
 ---
 ### Screen Recorder 
-- *Project Link: ​ varenaggarwal.github.io/screenRecorder/​*
+- [*Project Link: ​ varenaggarwal.github.io/screenRecorder/​*](https://www.varenaggarwal.github.io/screenRecorder/​)
 - Created a cross-platform native application for grabbing a choice of window or entire desktop screen and generating a video recording.
 - Tech Stack: JavaScript, HTML/CSS, electron
 
 ### Budgeteer​
-- *Project Link: ​ budgeteer.netlify.app/*
+- [*Project Link: ​ budgeteer.netlify.app/*](https://www.varenaggarwal.github.io/screenRecorder/)
 - Developed a personal finance tracking application for individuals.
 - Tech Stack: JavaScript, HTML/CSS
 
-### Art Portfolio ​
-- *Project Link: soumya​.netlify.app/​*
+### Art Portfolio
+- [*Project Link: soumya​.netlify.app/​*](https://www.soumya​.netlify.app/​)
 - Created an art portfolio for a budding artist to showcase work.
 - Tech Stack: Gatsby, JavaScript, HTML/CSS
 
