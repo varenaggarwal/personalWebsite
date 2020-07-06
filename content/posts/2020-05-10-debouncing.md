@@ -9,42 +9,52 @@ category: Web
 tags:
   - Web
 ---
-Now we all are searching for things all the time, in and outside the Internet. If you like most of us have searched for something in the search box in websites, chances are you have been debounced.
+Now we all are searching for things all the time, in and outside the Internet. If you like most of us have searched for something in the search box in websites, chances are you have been debounced. Debouncing is a method the limit the number of network calls made to the API. Network calls can be expensive. Moreover, the unnecessary API calls can also cause undue load on our system. 
 
-Debouncing is method the limit the number of network calls made to the api. Network calls can be expensive. Moreover the unnecessary API calls can also cause undue load on our system. 
 
-`// Debouncing in Javascript`
 
-`let counter = 0;`
+Here is an example of how you can use debouncing:
 
-`const getData = () => {`
+\`\``
 
-`// calls an API and gets Data`
+// Debouncing in Javascript
 
-`console.log("Fetching Data ..", counter++);`
+let counter = 0;
 
-`}`
+const getData = () => {
 
-`const debounce = function (fn, d) {`
+  // calls an API and gets Data
 
-`let timer;`
+  console.log("Fetching Data ..", counter++);
 
-`return function () {`
+}
 
-`let context = this,`
 
-`args = arguments;`
 
-`clearTimeout(timer);`
+const debounce = function (fn, d) {
 
-`timer = setTimeout(() => {`
+  let timer;
 
-`getData.apply(context, arguments);`
+  return function () {
 
-`}, d);`
+\    let context = this,
 
-`}`
+\    args = arguments;
 
-`}`
+\    clearTimeout(timer);
 
-`const betterFunction = debounce(getData, 300);`
+\    timer = setTimeout(() => {
+
+\    getData.apply(context, arguments);
+
+\    }, d);
+
+  }
+
+}
+
+
+
+const betterFunction = debounce(getData, 300);
+
+\`\``
