@@ -2,7 +2,7 @@
 template: post
 title: Coordinates in Javascript
 slug: jscoordinates
-draft: true
+draft: false
 date: 2020-07-02T09:54:43.906Z
 description: >
   Using coordinates in JavaScript for features like drag and drop or figma like
