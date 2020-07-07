@@ -4,6 +4,25 @@ title: Projects
 slug: pages/projects
 draft: false
 ---
+
+### Candy Crush 
+- [*Project Link: ​https://candycrushjs.netlify.app/​*](https://candycrushjs.netlify.app/)
+- [*Code Repo:https://github.com/varenaggarwal/candyCrush*](https://github.com/varenaggarwal/candyCrush)
+- Candy crush game in JS
+- Tech Stack: JavaScript, HTML/CSS
+
+### Minesweeper 
+- [*Project Link: ​ https://jsminesweeper.netlify.app/​*](https://jsminesweeper.netlify.app/)
+- [*Code Repo:https://github.com/varenaggarwal/minesweeper*](https://github.com/varenaggarwal/minesweeper)
+- Minesweeper in JS. Give it a go!
+- Tech Stack: JavaScript, HTML/CSS
+
+### Bartender 
+- [*Project Link: ​ https://bartendermix.netlify.app/*](https://bartendermix.netlify.app/)
+- [*Code Repo:https://github.com/varenaggarwal/bartender*](https://github.com/varenaggarwal/bartender)
+- Find a cocktail and bookmark if you love it.
+- Tech Stack: ReactJs, JavaScript, HTML/CSS
+
 ### Screen Recorder 
 - [*Project Link: ​ varenaggarwal.github.io/screenRecorder/​*](https://varenaggarwal.github.io/screenRecorder/)
 - Created a cross-platform native application for grabbing a choice of window or entire desktop screen and generating a video recording.
